@@ -11,6 +11,8 @@
 .navbar {
   display: flex;
   margin-top: 1.5rem;
+  position: sticky;
+  top: 1.5rem;
   z-index: 20;
   padding: 1rem;
   padding-left: 1rem;
