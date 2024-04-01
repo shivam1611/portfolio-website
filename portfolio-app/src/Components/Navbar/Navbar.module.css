@@ -1,0 +1,70 @@
+:root {
+  --dark-blue: #0f1724;
+  --light: #00e0bd;
+  --slow: #00b6be;
+  --fade: #3f9cff;
+  --white: white;
+  --accent: #f1f1e6;
+  --gray: rgb(141, 140, 140);
+}
+
+.navbar {
+  display: flex;
+  margin-top: 1.5rem;
+  z-index: 20;
+  padding: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.75rem;
+  border: 1px solid #3b3c3f;
+  margin-inline: auto;
+  color: var(--accent);
+  width: 75%;
+  height: 3.5rem;
+}
+
+.logo {
+  font-size: 1.5vw;
+  color: var(--accent);
+  user-select: none;
+  text-decoration: none;
+}
+
+.navigation {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.navigation:hover{
+    cursor: pointer;
+}
+.navigation:active{
+    color: var(--gray);
+}
+.navlist {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: flex-start;
+  text-decoration: none;
+  color: var(light);
+}
+
+.navItems:hover {
+  cursor: pointer;
+  color: gray;
+}
+
+.social_media_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.3rem;
+}
+.link {
+  font-size: 1.2rem;
+  color: var(--accent);
+}
