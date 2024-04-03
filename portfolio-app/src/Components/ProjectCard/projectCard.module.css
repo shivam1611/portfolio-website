@@ -1,6 +1,6 @@
 .project_card_component {
   width: 28rem;
-  height: 29rem;
+  height: 30rem;
   padding: 1rem;
   border: 1px solid var(--fade);
   border-radius: 1rem;
@@ -21,7 +21,7 @@
 }
 
 .card_detail_section {
-  margin-top: 0.7rem;
+  margin-top: 1.1rem;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -31,49 +31,71 @@
 
 .project_title {
   font-size: 1.5rem;
+  /* font-weight: 500; */
 }
 .project_details {
   font-size: 0.9rem;
-  margin-top: .4rem;
+  margin-top: 0rem;
   text-align: justify;
   width: 95%;
+  color: var(--gray);
 }
 
-.card_button_section{
-    position: absolute;
-    bottom: 2rem;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    left: 0;
+.technology_section{
+  display: flex;
+  margin-top: .7rem;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  /* background-color: green; */
+  height: 1rem;
+  /* width: 100%; */
 }
 
-.card_button{
-    border: none;
-    border-radius: 3rem;
-    padding: .3rem .5rem;
-    height: 2.5rem;
-    font-weight: 600;
-    width: 10rem;
-}
-.card_button:hover{
-    cursor: pointer;
-}
-
-.card_primary_button{
-    background-color: var(--fade);
-    color: var(--white);
-    border: none;
-}
-.card_primary_button:hover{
-
+.card_button_section {
+  position: absolute;
+  bottom: 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  left: 0;
 }
 
-.card_secondary_button{
-    background: none;
-    border: 1px solid var(--fade);
-    color: var(--fade);
+.card_button {
+  border: none;
+  border-radius: 3rem;
+  padding: 0.3rem 0.5rem;
+  height: 2.7rem;
+  font-weight: 600;
+  width: 10rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card_button:hover {
+  cursor: pointer;
+}
 
+.card_primary_button {
+  background-color: var(--fade);
+  color: var(--white);
+  border: none;
+}
+.card_primary_button:hover {
+}
+
+.card_secondary_button {
+  background: none;
+  border: 1px solid var(--fade);
+  color: var(--fade);
+}
+
+
+.skills_img{
+  width: 1.5rem;
+  height: 1.5rem;
+  aspect-ratio: 3/4;
 }

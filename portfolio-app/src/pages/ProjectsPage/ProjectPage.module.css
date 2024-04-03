@@ -1,0 +1,5 @@
+.project_page_component{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
