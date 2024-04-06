@@ -1,25 +1,25 @@
 import  style  from "./Navbar.module.css";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
     <>
     <div className={style.navbar}>
         <div>
-        <Link className={style.logo} to = '/' >Shivam Sharma</Link>
+        <NavLink className={style.logo} to = '/' >Shivam Sharma</NavLink>
         </div>
       <ul className={style.navlist}>
         <li >
-          <Link className={style.navigation} to="/projects">Projects</Link>
+          <NavLink className={style.navigation} to="/projects">Projects</NavLink>
         </li>
         <li >
-          <Link className={style.navigation} to="/about">About</Link>
+          <NavLink className={style.navigation} to="/about">About</NavLink>
         </li>
         <li>
-          <Link className={style.navigation} to="/skills">Skills</Link>
+          <NavLink className={style.navigation} to="/skills">Skills</NavLink>
         </li>
         <li>
-          <Link className={style.navigation} to="/contact">Contact</Link>
+          <NavLink className={style.navigation} to="/contact">Contact</NavLink>
         </li>
       </ul>
       <div className={style.social_media_section}>

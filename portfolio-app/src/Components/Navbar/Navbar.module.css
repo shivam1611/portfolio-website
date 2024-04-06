@@ -29,6 +29,7 @@
 
 .logo {
   font-size: 1.5vw;
+  
   color: var(--accent);
   user-select: none;
   text-decoration: none;
@@ -68,5 +69,12 @@
 }
 .link {
   font-size: 1.2rem;
+  transition: all .3s ease;
   color: var(--accent);
+}
+
+.link:hover{
+  cursor: pointer;
+  color: var(--fade);
+  transform: scale(1.2);
 }

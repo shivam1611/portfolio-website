@@ -21,6 +21,15 @@
   border-radius: 0.5rem;
 }
 
+
+:global(.component_container){
+  width: 75%;
+  /* border: 1px solid white; */
+  margin-inline:auto;
+  margin-top: 3rem;
+  
+}
+
 /* ############################################################################### */
 
 /*  */

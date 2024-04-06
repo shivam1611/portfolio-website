@@ -56,7 +56,7 @@ function HomePage() {
             transition={{ delay: 2.5, stiffness: 40, duration: 0.7 }}
             className={style.download_btn}
           >
-            Download CV
+           <a className="link_under_button" target="_blank" href="https://drive.google.com/file/d/1ifTkQbbw3rsqiYvNBTgWWhUxEgar_Sok/view"> Download CV</a>
           </motion.button>
         </div>
         <motion.div
