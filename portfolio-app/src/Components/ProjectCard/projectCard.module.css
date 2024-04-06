@@ -1,3 +1,7 @@
+
+
+
+
 .project_card_component {
   width: 28rem;
   height: 30rem;
@@ -5,6 +9,51 @@
   border: 1px solid var(--fade);
   border-radius: 1rem;
   position: relative;
+  background-color: var(--dark-blue);
+}
+
+.project_card_component::after {
+  content: "";
+  width: calc(100% + 1px);
+  height: calc(100% + 1px);
+  background: rgb(0, 224, 189);
+  background: linear-gradient(
+    90deg,
+    var(--light),
+    rgba(0, 138, 179, 1),
+    var(--fade),
+    rgba(0, 224, 189, 1),
+    rgba(0, 138, 179, 1),
+    var(--fade),
+    rgba(0, 224, 189, 1),
+    rgba(0, 138, 179, 1),
+    var(--fade),
+    rgba(0, 224, 189, 1),
+    rgba(0, 138, 179, 1),
+    var(--fade)
+  );
+  /* border-radius: 50%; */
+  background-size: 200%;
+  position: absolute;
+  left: -4px;
+  top: -4px;
+  z-index: -1;
+  animation: animate-shadow 10s linear infinite alternate;
+}
+.project_card_component::after {
+  filter: blur(10px);
+}
+
+@keyframes animate-shadow {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
 }
 
 .card_img_section {
@@ -29,13 +78,15 @@
   gap: 1rem;
 }
 
-.project_title {
+.project_title{
   font-size: 1.5rem;
-  /* font-weight: 500; */
+  font-weight: 500;
 }
 .project_details {
   font-size: 0.9rem;
   margin-top: 0rem;
+  height: 4.3em;
+  /* background-color: green; */
   text-align: justify;
   width: 95%;
   color: var(--gray);
@@ -74,9 +125,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all .2s ease;
 }
 .card_button:hover {
   cursor: pointer;
+  transform: scale(1.1);
 }
 
 .card_primary_button {
@@ -85,6 +138,7 @@
   border: none;
 }
 .card_primary_button:hover {
+  box-shadow: 0px 0px 3px 1px var(var(--fade));
 }
 
 .card_secondary_button {
