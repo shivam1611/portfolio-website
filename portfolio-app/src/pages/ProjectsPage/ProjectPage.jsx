@@ -6,33 +6,16 @@ import marketingIMG from "../../assets/marketingIMG.png";
 import travelHookIMG from "../../assets/travelhookIMG.png";
 import safecamIMG from '../../assets/safecamIMG.png'
 import { motion } from "framer-motion";
+import ComponentTitle from "../../Components/ComponentTitle/ComponentTitle";
+import MainContainer from "../../Components/MainContainer/MainContainer";
 
 function Projects() {
   return (
     <div>
       <Navbar />
-      <motion.div
-        initial={{ y: -20, opacity: 0, scale: 0.9 }}
-        animate={{ y: 0, opacity: 1, scale: 1 }}
-        transition={{ duration: ".3", stiffness: "150" }}
-        className="component_container"
-      >
+      <MainContainer>
         <div className={styles.project_page_component}>
-          <div className="container_title">
-            <motion.h1
-              initial={{ x: -10, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: ".3", stiffness: "100", delay: ".3" }}
-            >
-              Here are my projects
-            </motion.h1>
-            <motion.p
-              initial={{ width: "0" }}
-              animate={{ width: "100%" }}
-              transition={{ delay: ".4", duration: "1", stiffness: "40" }}
-              className="underline"
-            ></motion.p>
-          </div>
+          <ComponentTitle title={"Here are my projects"}/>
           <motion.div
             initial={{ opacity: 0, x: -10 }}
             animate={{ opacity: 1, x: 0 }}
@@ -103,6 +86,14 @@ function Projects() {
 
           </motion.div>
         </div>
+      </MainContainer>
+      <motion.div
+        initial={{ y: -20, opacity: 0, scale: 0.9 }}
+        animate={{ y: 0, opacity: 1, scale: 1 }}
+        transition={{ duration: ".3", stiffness: "150" }}
+        className="component_container"
+      >
+        
       </motion.div>
     </div>
   );

@@ -6,11 +6,13 @@ import Projects from "./pages/ProjectsPage/ProjectPage";
 import PageNotFound from "./pages/NotFound/PageNotFound";
 import Skill from "./pages/Skills/Skill";
 import Contact from "./pages/Contact/Contact";
+import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 
 function App() {
   return (
     <>
       <BrowserRouter>
+      <ScrollToTop/>
         <Routes>
           <Route path="*" element={<PageNotFound />} />
           <Route path="/" element={<HomePage />} />

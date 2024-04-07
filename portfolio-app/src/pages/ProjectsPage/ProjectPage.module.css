@@ -1,30 +1,8 @@
-/* This is all the global CSS used in all the pages  */
-
-/* This is the css for the titles of the containers */
-
-:global(.container_title) {
-  font-size: 1.1rem;
-  width: fit-content;
-  margin-top: 1rem;
-}
-
-:global(.underline) {
-  margin-top: 0.2rem;
-  width: 100%;
-  height: 0.3rem;
-  background-image: linear-gradient(
-    90deg,
-    rgb(9, 184, 158) 0%,
-    var(--fade) 43%,
-    #1ba9b0 70%
-  );
-  border-radius: 0.5rem;
-}
 
 
 :global(.component_container){
   width: 75%;
-  /* border: 1px solid white; */
+  border: 1px solid white;
   margin-inline:auto;
   margin-top: 3rem;
   
