@@ -36,6 +36,7 @@
   }
   
   .bottom_text_style {
+    
     color: var(--accent);
     font-size: 3.4vw;
     line-height: 1.375;

@@ -9,6 +9,8 @@
   --white: white;
   --accent: #f1f1e6;
   --gray: rgb(141, 140, 140);
+  --whatsapp-green:#4dc95d;
+  --mail-red:tomato;
 }
 
 .active{
