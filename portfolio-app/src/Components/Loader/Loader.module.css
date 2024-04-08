@@ -1,0 +1,26 @@
+.loader{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 8rem;
+    z-index: 12;
+    width: 8rem;
+    border-radius: 50%;
+    border: 1rem solid var(--white);
+    border-top-color: var(--fade);
+    animation-name: rotate;
+    animation-duration:.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

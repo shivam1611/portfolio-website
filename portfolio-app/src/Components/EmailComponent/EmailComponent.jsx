@@ -2,17 +2,21 @@ import React, {  useState,useRef } from "react";
 import styles from "./EmailComponent.module.css";
 import Mail from "../../assets/mail.svg";
 import emailjs from '@emailjs/browser';
+import AlertBox from "../AlertBox/AlertBox";
+import Loader from "../Loader/Loader";
 
 function EmailComponent() {
   const [fname, setFname] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [phone, setPhone] = useState("");
+  const [viewLoader, setViewLoader] = useState(false)
 
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
+    setViewLoader(true)
 
     // These are the service ID , template ID and public key 
     const service_ID  = "service_qe6i7dq"
@@ -31,6 +35,7 @@ function EmailComponent() {
     emailjs.send(service_ID, template_ID,template, public_key)
     .then((response)=>{
       console.log("Sucessfull", response)
+      setViewLoader(false)
       setFname("")
       setEmail("")
       setMessage("")
@@ -98,6 +103,10 @@ function EmailComponent() {
         <i className="fa-solid fa-paper-plane"></i>
         </button>
       </form>
+     
+      {
+        viewLoader && <Loader/>
+      }
     </div>
   );
 }

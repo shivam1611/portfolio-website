@@ -1,10 +1,21 @@
+import { useRef } from "react";
 import  style  from "./Navbar.module.css";
 import { Link, NavLink } from "react-router-dom";
 
 function Navbar() {
+  const navbar = useRef(null)
+
+  window.addEventListener('scroll', function() {
+   
+    if (window.scrollY > 50) { // Change 50 to the desired scroll position
+        navbar.current.classList.add(style.scrolling);
+    } else {
+        navbar.current.classList.remove(style.scrolling);
+    }
+});
   return (
     <>
-    <div className={style.navbar}>
+    <div ref={navbar} className={style.navbar}>
         <div>
         <NavLink className={style.logo} to = '/' >Shivam Sharma</NavLink>
         </div>

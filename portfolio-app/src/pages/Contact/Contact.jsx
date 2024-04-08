@@ -1,6 +1,7 @@
 import Navbar from "../../Components/Navbar/Navbar";
 import MainContainer from "../../Components/MainContainer/MainContainer";
 import ComponentTitle from "../../Components/ComponentTitle/ComponentTitle";
+import {motion} from 'framer-motion'
 import styles from "./Contact.module.css";
 
 import EmailComponent from "../../Components/EmailComponent/EmailComponent";

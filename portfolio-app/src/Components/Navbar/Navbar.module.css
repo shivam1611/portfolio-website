@@ -24,6 +24,7 @@
   margin-inline: auto;
   color: var(--accent);
   width: 75%;
+  transition: all 1s ease;
   height: 3.5rem;
 }
 
@@ -77,4 +78,9 @@
   cursor: pointer;
   color: var(--fade);
   transform: scale(1.2);
+}
+
+.scrolling{
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 2px 1px var(--accent);
 }

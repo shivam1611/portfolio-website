@@ -7,7 +7,13 @@ function HomePage() {
   return (
     <div>
       <Navbar />
-      <div className={style.hero_component}>
+      <motion.div
+        initial={{ y: -20, opacity: 0, scale: 0.9 }}
+        animate={{ y: 0, opacity: 1, scale: 1 }}
+        transition={{ duration: ".3", stiffness: "150" }}
+        exit={{ opacity: 0 }}
+        className={style.hero_component}
+      >
         <div className={style.left_side}>
           <motion.p
             initial={{ opacity: 0, x: "-10vw" }}
@@ -56,7 +62,14 @@ function HomePage() {
             transition={{ delay: 2.5, stiffness: 40, duration: 0.7 }}
             className={style.download_btn}
           >
-           <a className="link_under_button" target="_blank" href="https://drive.google.com/file/d/1ifTkQbbw3rsqiYvNBTgWWhUxEgar_Sok/view"> Download CV</a>
+            <a
+              className="link_under_button"
+              target="_blank"
+              href="https://drive.google.com/file/d/1ifTkQbbw3rsqiYvNBTgWWhUxEgar_Sok/view"
+            >
+              {" "}
+              Download CV
+            </a>
           </motion.button>
         </div>
         <motion.div
@@ -69,7 +82,7 @@ function HomePage() {
             <img src={HeroImage} alt="Shivam" className={style.hero_image} />
           </div>
         </motion.div>
-      </div>
+      </motion.div>
     </div>
   );
 }

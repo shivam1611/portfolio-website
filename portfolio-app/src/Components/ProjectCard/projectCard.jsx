@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./projectCard.module.css";
 
+
 function projectCard({
   projectName,
   projectDetails,
@@ -10,7 +11,7 @@ function projectCard({
   githubLink,
 }) {
   return (
-    <div className={styles.project_card_component}>
+    <div  className={styles.project_card_component}>
       <div className={styles.card_img_section}>
         <img src={demoImage} alt="project " />
       </div>

@@ -1,4 +1,5 @@
 import ActionBox from "../../Components/ActionBox/ActionBox";
+import MainContainer from "../../Components/MainContainer/MainContainer";
 import Navbar from "../../Components/Navbar/Navbar";
 import style from "./AboutPage.module.css";
 import { motion } from "framer-motion";
@@ -7,13 +8,8 @@ function AboutPage() {
   return (
     <div>
       <Navbar />
-      <motion.div
-        initial={{ y: -20, opacity: 0, scale: 0.9 }}
-        animate={{ y: 0, opacity: 1, scale: 1 }}
-        transition={{ duration: ".3", stiffness: "150" }}
-        className={"component_container"}
-      >
-        <div className={style.about_component}>
+      <MainContainer>
+      <div className={style.about_component}>
           <div className="container_title">
             <motion.h1
               initial={{ x: -10, opacity: 0 }}
@@ -110,7 +106,7 @@ function AboutPage() {
             </div>
           </div>
         </div>
-      </motion.div>
+      </MainContainer>
     </div>
   );
 }
