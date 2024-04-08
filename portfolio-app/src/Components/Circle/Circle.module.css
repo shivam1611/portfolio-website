@@ -6,7 +6,7 @@
     border: .2rem solid var(--light);
     position: fixed;
    /* right: -8rem; */
-    z-index: -7;
+    z-index: -10;
     /* top: -6rem; */
 }
 
