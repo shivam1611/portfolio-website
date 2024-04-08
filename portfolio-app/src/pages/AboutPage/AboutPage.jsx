@@ -10,7 +10,7 @@ function AboutPage() {
   return (
     <div>
       <Navbar />
-      <Circle top={"-8rem"} left={"-8rem"}/>
+      <Circle top={"-19rem"} left={"-15rem"}/>
       <MainContainer>
       <div className={style.about_component}>
          <ContainerTitle title={"About me"}/>

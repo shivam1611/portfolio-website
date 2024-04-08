@@ -25,24 +25,24 @@
 	width: 1.3rem;
 	height: 1.3rem;
 	border-radius: 50%;
-	left: -2.5rem;
+	right: -2.5rem;
 	top: 1rem;
 	background-color:var(--fade);
 	border: 2px solid white;
 }
 
-/* .right_side::before{
+.right_side::before{
     content: '';
 	position: absolute;
 	width: 1.3rem;
 	height: 1.3rem;
 	border-radius: 50%;
-	left: -2.4rem;
+    right: -2.4rem;
 	top: 1rem;
 	background-color:var(--fade);
 	border: 2px solid white;
 
-} */
+}
 
 .left_section{
     width: 12rem;
@@ -104,9 +104,10 @@
 
 }
 
-/* .left_side{
+.left_side{
     left: 0;
-} */
-/* .right_side{
+} 
+
+.right_side{
     left: 50%;
-} */
+} 
