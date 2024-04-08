@@ -7,12 +7,14 @@ import travelHookIMG from "../../assets/travelhookIMG.png";
 import safecamIMG from '../../assets/safecamIMG.png'
 import { motion } from "framer-motion";
 import ComponentTitle from "../../Components/ComponentTitle/ComponentTitle";
+import Circle from '../../Components/Circle/Circle'
 import MainContainer from "../../Components/MainContainer/MainContainer";
 
 function Projects() {
   return (
     <div>
       <Navbar />
+      <Circle right={"-6rem"} top={"-8rem"}/>
       <MainContainer>
         <div className={styles.project_page_component}>
           <ComponentTitle title={"Here are my projects"}/>

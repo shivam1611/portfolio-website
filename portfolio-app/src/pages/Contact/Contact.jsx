@@ -5,11 +5,13 @@ import {motion} from 'framer-motion'
 import styles from "./Contact.module.css";
 
 import EmailComponent from "../../Components/EmailComponent/EmailComponent";
+import Circle from "../../Components/Circle/Circle";
 
 function Contact() {
   return (
     <div>
       <Navbar />
+      <Circle top={"-5rem"} right={"-18rem"}/>
       <MainContainer>
         <ComponentTitle title={"Get in touch"} />
         <div className={styles.box}>

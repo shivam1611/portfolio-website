@@ -82,5 +82,5 @@
 
 .scrolling{
   background-color: rgba(0, 0, 0, 0.6);
-  box-shadow: 0px 0px 2px 1px var(--accent);
+  box-shadow: 0px 0px 2px 1px var(--light);
 }

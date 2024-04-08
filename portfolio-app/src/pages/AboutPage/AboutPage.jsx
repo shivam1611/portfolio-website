@@ -1,30 +1,19 @@
 import ActionBox from "../../Components/ActionBox/ActionBox";
+import Circle from "../../Components/Circle/Circle";
 import MainContainer from "../../Components/MainContainer/MainContainer";
 import Navbar from "../../Components/Navbar/Navbar";
 import style from "./AboutPage.module.css";
+import ContainerTitle from '../../Components/ComponentTitle/ComponentTitle'
 import { motion } from "framer-motion";
 
 function AboutPage() {
   return (
     <div>
       <Navbar />
+      <Circle top={"-8rem"} left={"-8rem"}/>
       <MainContainer>
       <div className={style.about_component}>
-          <div className="container_title">
-            <motion.h1
-              initial={{ x: -10, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: ".3", stiffness: "100", delay: ".3" }}
-            >
-              About Me
-            </motion.h1>
-            <motion.p
-              initial={{ width: "0" }}
-              animate={{ width: "100%" }}
-              transition={{ delay: ".4", duration: "1", stiffness: "40" }}
-              className="underline"
-            ></motion.p>
-          </div>
+         <ContainerTitle title={"About me"}/>
           <div className={style.timeline_container}>
             <h1 className={style.timeline_title}>My Education</h1>
             <div className={style.timeline_box}>

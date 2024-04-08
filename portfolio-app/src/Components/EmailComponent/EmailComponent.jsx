@@ -11,12 +11,14 @@ function EmailComponent() {
   const [message, setMessage] = useState("");
   const [phone, setPhone] = useState("");
   const [viewLoader, setViewLoader] = useState(false)
+  const [viewAlert, setViewAlert] = useState(false)
 
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
     setViewLoader(true)
+    
 
     // These are the service ID , template ID and public key 
     const service_ID  = "service_qe6i7dq"
@@ -36,6 +38,7 @@ function EmailComponent() {
     .then((response)=>{
       console.log("Sucessfull", response)
       setViewLoader(false)
+      setViewAlert(true)
       setFname("")
       setEmail("")
       setMessage("")
@@ -106,6 +109,10 @@ function EmailComponent() {
      
       {
         viewLoader && <Loader/>
+      }
+      {
+        viewAlert &&
+      <AlertBox/>
       }
     </div>
   );

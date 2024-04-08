@@ -5,11 +5,13 @@ import styles from "./Skills.module.css";
 import { motion } from "framer-motion";
 import ComponentTitle from "../../Components/ComponentTitle/ComponentTitle";
 import MainContainer from "../../Components/MainContainer/MainContainer";
+import Circle from "../../Components/Circle/Circle";
 
 function Skill() {
   return (
     <div>
       <Navbar />
+      <Circle top={"18rem"} right={"-18rem"}/>
       <MainContainer>
         <ComponentTitle title={"Here are my skills"} />
         <motion.div
