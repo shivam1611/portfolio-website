@@ -160,7 +160,7 @@
   .hero_component {
     /* background-color: green; */
     height: fit-content;
-    margin-top: 5rem;
+    margin-top: 4rem;
     width: 100%;
     flex-direction: column-reverse;
   }
@@ -176,11 +176,11 @@
   }
 
   .upper_text_style{
-    font-size: 3.2rem;
+    font-size: 3.1rem;
     /* margin-top: .3rem; */
   }
   .bottom_text_style{
-    font-size: 2.7rem;
+    font-size: 2.5rem;
     /* margin-top: .4rem; */
   }
   
