@@ -1,11 +1,9 @@
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import style from "./Navbar.module.css";
 import { Link, NavLink } from "react-router-dom";
 
 function Navbar() {
-
   const navbar = useRef();
-  useEffect(function(){
 
   window.addEventListener("scroll", function () {
     if (window.scrollY > 50) {
@@ -14,9 +12,7 @@ function Navbar() {
     } else {
       navbar.current.classList.remove(style.scrolling);
     }
-  }, [window.scrollY]);
-  })
-  
+  });
   return (
     <>
       <div ref={navbar} className={style.navbar}>
@@ -104,12 +100,9 @@ function Navbar() {
             <i className="fa-brands fa-instagram"></i>
           </a>
         </div>
-        
       </div>
-      
     </>
   );
-  
 }
 
 export default Navbar;
