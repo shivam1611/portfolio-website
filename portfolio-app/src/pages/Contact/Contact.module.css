@@ -129,3 +129,46 @@
 
   margin-right: 0.6rem;
 }
+
+@media screen and (max-width:830px) {
+  
+
+  .box{
+    flex-direction: column;
+    height: fit-content;
+    /* background-color: green; */
+    padding-bottom: 1rem;
+    margin-top: 3rem;
+  }
+  .form{
+    height:fit-content;
+  }
+  .left_section_indexing{
+    height: fit-content;
+    width: 90%;
+  }
+  
+  .right_section_indexing{
+    width: 90%;
+    margin-top: 4rem;
+    height: fit-content;
+    /* background-color: rgb(58, 58, 50); */
+    text-align: center;
+    display: flex;
+    padding-left: 0;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .location_services{
+    width: 100%;
+    flex-direction: column;
+    gap: .5rem;
+    margin: auto;
+    margin-top: 1rem;
+  }
+  .follow_me_section{
+    gap: .5rem;
+  }
+}

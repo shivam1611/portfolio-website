@@ -117,3 +117,30 @@
   background-color: var(--fade);
   border: 2px solid white;
 }
+
+
+@media screen and (max-width:830px) {
+
+  .timeline_box{
+    margin: 2.5rem auto;
+  }
+  .timeline_box::after{
+    left: 0rem;
+  }
+  .action_container{
+    width: 100%;
+    margin-top: 2rem;
+    padding-left: 2.5rem;
+    /* padding-right: 1rem; */
+    height: fit-content;
+    /* background-color: green; */
+    padding-top: 2rem;
+  }
+  .right_container{
+    top: 1rem;
+    left: 0;
+  }
+  .right_container::before, .left_container::before{
+    left: -.5rem;
+  }
+}

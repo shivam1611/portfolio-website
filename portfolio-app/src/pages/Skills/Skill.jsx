@@ -11,9 +11,9 @@ function Skill() {
   return (
     <div>
       <Navbar />
-      <Circle top={"18rem"} right={"-18rem"}/>
+      <Circle top={"18rem"} right={"-18rem"} />
       <MainContainer>
-        <ComponentTitle title={"Here are my skills"} />
+        <ComponentTitle title={"My Skills"} />
         <motion.div
           initial={{ opacity: 0, x: -10 }}
           animate={{ opacity: 1, x: 0 }}
@@ -24,6 +24,11 @@ function Skill() {
           <SkillCard skill_name={"CSS "} level={5} key={"CSS"} />
           <SkillCard skill_name={"JavaScript"} level={5} key={"JavaScript"} />
           <SkillCard skill_name={"React.js"} level={3} key={"React.js"} />
+          <SkillCard
+            skill_name={"Git and GitHub"}
+            level={3}
+            key={"Git and GitHub"}
+          />
           <SkillCard
             skill_name={"Tailwind CSS"}
             level={4}

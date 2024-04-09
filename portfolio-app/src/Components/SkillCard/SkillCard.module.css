@@ -39,3 +39,20 @@
   font-weight: 700;
   color: var(var(--accent)) ;
 }
+
+@media screen and (max-width:830px) {
+  .skill_card_component{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: fit-content;
+    margin-top: 2rem;
+  }
+  .star_section{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+  }
+}

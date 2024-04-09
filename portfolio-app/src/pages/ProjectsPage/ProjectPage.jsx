@@ -17,7 +17,7 @@ function Projects() {
       <Circle right={"-6rem"} top={"-8rem"}/>
       <MainContainer>
         <div className={styles.project_page_component}>
-          <ComponentTitle title={"Here are my projects"}/>
+          <ComponentTitle title={"My projects"}/>
           <motion.div
             initial={{ opacity: 0, x: -10 }}
             animate={{ opacity: 1, x: 0 }}

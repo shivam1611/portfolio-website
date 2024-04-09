@@ -19,6 +19,8 @@
   transform: scale(1.4);
 }
 
+@media
+
 html{
   scroll-behavior: smooth;
 }
