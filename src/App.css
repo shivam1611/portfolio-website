@@ -1,0 +1,68 @@
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Inter:wght@100..900&family=Open+Sans&family=Outfit&family=Roboto:wght@500&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap");
+
+:root {
+  --dark-blue: #0f1724;
+  --light: #00e0bd;
+  --slow: #00b6be;
+  --fade: #3f9cff;
+  --white: white;
+  --accent: #f1f1e6;
+  --gray: rgb(141, 140, 140);
+  --whatsapp-green:#4dc95d;
+  --mail-red:tomato;
+}
+
+.active{
+  color: var(--light);
+  text-shadow: 0px 0px 3px var(--light);
+  transform: scale(1.4);
+}
+
+@media
+
+html{
+  scroll-behavior: smooth;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  color: var(--white);
+}
+
+/* SCROLL BAR CSS  */
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--primary);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--accent);
+    border-radius: 2rem;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+body {
+  background-color: var(--dark-blue);
+  color: white;
+  
+}
+
+
+

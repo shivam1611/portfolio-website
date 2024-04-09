@@ -1,0 +1,49 @@
+
+
+:global(.component_container){
+  max-width: 70rem;
+  padding-inline: 2rem;
+  /* border: 1px solid white; */
+  margin-inline:auto;
+  margin-top: 3rem;
+  
+}
+
+/* ############################################################################### */
+
+/*  */
+
+.projects_component {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  /* background-color: green; */
+  gap: 4rem;
+  width: 100%;
+  margin-inline: auto;
+  margin-top: 4rem;
+}
+
+
+@media screen and (max-width:830px) {
+  
+  .projects_component{
+    grid-template-columns: 1fr;
+    
+  }
+
+  
+:global(.component_container){
+  max-width: 70rem;
+  padding-inline: 2rem;
+  /* border: 1px solid white; */
+  margin-inline:auto;
+  margin-top: 3rem;
+  margin-bottom: 7rem;
+  
+}
+
+  
+  
+}

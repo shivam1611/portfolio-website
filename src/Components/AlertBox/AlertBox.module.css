@@ -1,0 +1,26 @@
+.alert_box {
+  position: absolute;
+bottom: 1rem;
+left: 1rem;
+  /* transform: translate(-50%, -50%); */
+  height: 3rem;
+  font-size: .9rem;
+  font-weight: 700;
+  width: 80%;
+  /* background-color: var(--dark-blue); */
+  z-index: 100;
+  /* box-shadow: 0px 0px 5px 1px var(--light); */
+  padding: 1rem;
+  border-radius: .4rem;
+  animation: alert 0.75s ease;
+  color: var(--dark-blue);
+}
+
+@keyframes alert {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

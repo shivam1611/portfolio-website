@@ -1,0 +1,13 @@
+.circle{
+    width: 40rem;
+    height: 40rem;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 2px var(--light);
+    border: .2rem solid var(--light);
+    position: fixed;
+   /* right: -8rem; */
+    z-index: -10;
+    /* top: -6rem; */
+}
+
+  
