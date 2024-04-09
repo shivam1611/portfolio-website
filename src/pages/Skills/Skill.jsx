@@ -32,7 +32,7 @@ function Skill() {
           <SkillCard
             skill_name={"Tailwind CSS"}
             level={4}
-            key={"Tailwind CSS"}
+            key={"Tailwind"}
           />
           {/* <SkillCard skill_name={} */}
         </motion.div>

@@ -39,6 +39,7 @@
 .navigation {
   color: var(--accent);
   text-decoration: none;
+  transition: all .3s ease;
 }
 .home_navigation{
   display: none;

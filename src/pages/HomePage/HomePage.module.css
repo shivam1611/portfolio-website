@@ -177,9 +177,11 @@
 
   .upper_text_style{
     font-size: 3.2rem;
+    margin-top: .3rem;
   }
   .bottom_text_style{
     font-size: 2.7rem;
+    margin-top: .4rem;
   }
   
 }

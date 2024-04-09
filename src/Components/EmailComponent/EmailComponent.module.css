@@ -106,7 +106,7 @@
     /* padding-bottom: 2rem; */
   }
   .form {
-    height: 22rem;
+    height: 23rem;
     padding: 1rem;
     /* background-color: purple; */
     width: 100%;
@@ -115,7 +115,7 @@
     height: 7.5rem;
   }
   .submit_btn{
-    bottom: 0rem;
+    bottom: 1rem;
     right: 2rem;
   }
 

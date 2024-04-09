@@ -114,6 +114,7 @@ function EmailComponent() {
         viewAlert &&
       <AlertBox/>
       }
+      <AlertBox/>
     </div>
   );
 }
