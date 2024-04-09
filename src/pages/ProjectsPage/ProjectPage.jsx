@@ -75,7 +75,7 @@ function Projects() {
             <ProjectCard 
             previewLink={"https://kaleidoscopic-nougat-c405ab.netlify.app/"}
             githubLink={"https://github.com/shivam1611/safe-cams-static-website"}
-            projectName={"SafeCaom Webpage"}
+            projectName={"SafeCam Webpage"}
             projectDetails={"It is a responsive and Mobile friendly static webpage created using pure HTML, CS and jQuery."}
             demoImage={safecamIMG}
             key={"SafeCam Webpage"}
