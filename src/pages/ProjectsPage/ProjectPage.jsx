@@ -5,6 +5,7 @@ import teamtrackrIMG from "../../assets/teamtrackrIMG.png";
 import marketingIMG from "../../assets/marketingIMG.png";
 import travelHookIMG from "../../assets/travelhookIMG.png";
 import safecamIMG from '../../assets/safecamIMG.png'
+import quizIMG from '../../assets/quizIMG.png'
 import { motion } from "framer-motion";
 import ComponentTitle from "../../Components/ComponentTitle/ComponentTitle";
 import Circle from '../../Components/Circle/Circle'
@@ -24,6 +25,18 @@ function Projects() {
             transition={{ delay: ".5", duration: ".3", stiffness: "100" }}
             className={styles.projects_component}
           >
+            <ProjectCard previewLink={"https://thereactquizz.netlify.app/"}
+            githubLink={"https://github.com/shivam1611/react-quiz"}
+            projectName={"React Quiz App"}
+            projectDetails={"React Quiz App: Answer React questions, get results. Fun way to test React knowledge. Simple, interactive, and informative!"}
+            demoImage={quizIMG}
+            skill_img={[
+              "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+              "https://cdn.worldvectorlogo.com/logos/html-1.svg",
+              "https://cdn.worldvectorlogo.com/logos/css-3.svg",
+              "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
+            ]}/>
+
             <ProjectCard
               previewLink={"https://teamtrackers.netlify.app/"}
               githubLink={"https://github.com/shivam1611/Team-Trackr-app"}
