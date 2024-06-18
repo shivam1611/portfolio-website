@@ -3,19 +3,19 @@
 
 :root {
   --dark-blue: #03061c;
-  --light: #00e0bd;
-  --slow: #00b6be;
+  --light: #0dedcb;
+  --slow: #0fbbc4;
   --fade: #3f9cff;
   --white: white;
   --accent: #f1f1e6;
-  --gray: rgb(141, 140, 140);
+  --gray: rgb(194, 194, 194);
   --whatsapp-green:#4dc95d;
   --mail-red:tomato;
 }
 
 .active{
   color: var(--light);
-  text-shadow: 0px 0px 3px var(--light);
+  text-shadow: 0px 0px 3px rgb(16, 243, 209);
   transform: scale(1.4);
 }
 

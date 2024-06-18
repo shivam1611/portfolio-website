@@ -5,7 +5,7 @@
 .project_card_component {
   max-width: 28rem;
   /* width: 80%; */
-  height: 30rem;
+  height: 31rem;
   padding: 1rem;
   border: 1px solid var(--fade);
   border-radius: 1rem;
@@ -16,8 +16,8 @@
 
 .project_card_component::after {
   content: "";
-  width: calc(100% + 1px);
-  height: calc(100% + 1px);
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
   background: rgb(0, 224, 189);
   background: linear-gradient(
     90deg,
@@ -43,7 +43,7 @@
   animation: animate-shadow 10s linear infinite alternate;
 }
 .project_card_component::after {
-  filter: blur(10px);
+  filter: blur(13px);
 }
 
 @keyframes animate-shadow {

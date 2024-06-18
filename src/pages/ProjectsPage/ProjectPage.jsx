@@ -46,7 +46,7 @@ function Projects() {
               githubLink={"https://github.com/shivam1611/react-whether-app/tree/main"}
               projectName={"React Weather App"}
               projectDetails={
-                "This is React Weather App for you to see how the day is going.Interactive Web Application based on API Data fetching and powered by cool animations."
+                "This is React Weather App for you to see how the day is going. Interactive Web Application based on API Data fetching."
               }
               demoImage={weatherAppImg}
               skill_img={[

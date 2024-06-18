@@ -122,8 +122,8 @@
     top: auto;
     border-radius: 0;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.6);
-  box-shadow: 0px 0px 2px 1px var(--light);
+    background-color: rgba(0, 0, 0, .9);
+  box-shadow: 0px 0px 10px 1.5px var(--light);
     height: 4rem;
     padding: 0;
   }
