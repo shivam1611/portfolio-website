@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Inter:wght@100..900&family=Open+Sans&family=Outfit&family=Roboto:wght@500&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap");
 
 :root {
-  --dark-blue: #0f1724;
+  --dark-blue: #03061c;
   --light: #00e0bd;
   --slow: #00b6be;
   --fade: #3f9cff;
@@ -19,11 +19,12 @@
   transform: scale(1.4);
 }
 
-@media
+
 
 html{
   scroll-behavior: smooth;
 }
+
 * {
   padding: 0;
   margin: 0;

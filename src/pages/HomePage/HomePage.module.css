@@ -91,8 +91,8 @@
 
 .img_section::after {
   content: "";
-  width: calc(100% + 2px);
-  height: calc(100% + 2px);
+  width: calc(100% + 10px);
+  height: calc(100% + 5px);
   background: rgb(0, 224, 189);
   background: linear-gradient(
     90deg,
@@ -110,10 +110,10 @@
     var(--fade)
   );
   border-radius: 50%;
-  background-size: 200%;
+  background-size: 250%;
   position: absolute;
-  left: -4px;
-  top: -4px;
+  left: -5px;
+  top: -5px;
   z-index: -1;
   animation: animate-shadow 10s linear infinite alternate;
 }
