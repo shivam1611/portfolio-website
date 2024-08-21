@@ -11,6 +11,7 @@ import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 function App() {
   return (
     <>
+    
       <BrowserRouter>
       <ScrollToTop/>
         <Routes>
@@ -22,6 +23,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
+      
     </>
   );
 }

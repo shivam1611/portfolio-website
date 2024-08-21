@@ -1,5 +1,6 @@
-import React from "react";
+
 import styles from "./projectCard.module.css";
+
 
 
 function projectCard({
