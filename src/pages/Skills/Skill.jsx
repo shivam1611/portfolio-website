@@ -24,6 +24,7 @@ function Skill() {
           <SkillCard skill_name={"CSS "} level={5} key={"CSS"} />
           <SkillCard skill_name={"JavaScript"} level={5} key={"JavaScript"} />
           <SkillCard skill_name={"React.js"} level={3} key={"React.js"} />
+          <SkillCard skill_name={"Redux (Classic & RTK)"} level={3} key={"Redux"} />
           <SkillCard
             skill_name={"Git and GitHub"}
             level={3}
