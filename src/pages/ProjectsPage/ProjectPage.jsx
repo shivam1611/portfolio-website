@@ -11,6 +11,7 @@ import { motion } from "framer-motion";
 import ComponentTitle from "../../Components/ComponentTitle/ComponentTitle";
 import Circle from "../../Components/Circle/Circle";
 import MainContainer from "../../Components/MainContainer/MainContainer";
+import orderly from "../../assets/orderly.png"
 
 function Projects() {
   return (
@@ -26,6 +27,22 @@ function Projects() {
             transition={{ delay: ".5", duration: ".3", stiffness: "100" }}
             className={styles.projects_component}
           >
+            <ProjectCard
+              previewLink={"https://youtu.be/GLJCR6IoIjQ?si=TDubWvPu9k_6OHkN"}
+              githubLink={"https://github.com/shivam1611/orderly-billing-app"}
+              projectName={"Orderly Billing App"}
+              projectDetails={
+                "Orderly Billing is a modern and efficient billing software built with React, designed to streamline cafe and restaurant operations. "
+              }
+              demoImage={orderly}
+              skill_img={[
+                "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+                "https://cdn.worldvectorlogo.com/logos/html-1.svg",
+                "https://cdn.worldvectorlogo.com/logos/css-3.svg",
+                "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
+              ]}
+            />
+
             <ProjectCard
               previewLink={"https://thereactquizz.netlify.app/"}
               githubLink={"https://github.com/shivam1611/react-quiz"}
@@ -43,7 +60,9 @@ function Projects() {
             />
             <ProjectCard
               previewLink={"https://reatweathersite.netlify.app/"}
-              githubLink={"https://github.com/shivam1611/react-whether-app/tree/main"}
+              githubLink={
+                "https://github.com/shivam1611/react-whether-app/tree/main"
+              }
               projectName={"React Weather App"}
               projectDetails={
                 "This is React Weather App for you to see how the day is going. Interactive Web Application based on API Data fetching."
@@ -54,7 +73,7 @@ function Projects() {
                 "https://cdn.worldvectorlogo.com/logos/html-1.svg",
                 "https://cdn.worldvectorlogo.com/logos/css-3.svg",
                 "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
-                "https://cdn.worldvectorlogo.com/logos/framer-motion.svg"
+                "https://cdn.worldvectorlogo.com/logos/framer-motion.svg",
               ]}
             />
 

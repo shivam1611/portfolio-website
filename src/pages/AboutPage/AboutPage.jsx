@@ -17,7 +17,9 @@ function AboutPage() {
           <div className={style.timeline_container}>
             <h1 className={style.timeline_title}>My Education</h1>
             <div className={style.timeline_box}>
-              <div className={`${style.action_container} ${style.left_container}`}>
+              <div
+                className={`${style.action_container} ${style.left_container}`}
+              >
                 <ActionBox
                   isleft={true}
                   timeline={"2017 - 2018"}
@@ -28,7 +30,9 @@ function AboutPage() {
                   }
                 />
               </div>
-              <div className={`${style.action_container} ${style.right_container}`}>
+              <div
+                className={`${style.action_container} ${style.right_container}`}
+              >
                 <ActionBox
                   isleft={false}
                   timeline={"2019 - 2020"}
@@ -39,19 +43,25 @@ function AboutPage() {
                   }
                 />
               </div>
-              <div className= {`${style.action_container} ${style.left_container}`}>
+              <div
+                className={`${style.action_container} ${style.left_container}`}
+              >
                 <ActionBox
                   isleft={true}
                   timeline={"2020 - 2022"}
                   timeline_title={"Diploma in Computer Science "}
                   location={"Govt. Polytechnic Kotdwara"}
-                  details={"Pursued the diploma in Computer Science & Engineering with 9 cgpa from Uttrakhand Board Of Technical Education"}
+                  details={
+                    "Pursued the diploma in Computer Science & Engineering with 9 cgpa from Uttrakhand Board Of Technical Education"
+                  }
                   img={
                     "https://www.gpkotdwar.org.in/images/gallery/l8THHpO6.jpg"
                   }
                 />
               </div>
-              <div className= {`${style.action_container} ${style.right_container}`}>
+              <div
+                className={`${style.action_container} ${style.right_container}`}
+              >
                 <ActionBox
                   isleft={false}
                   timeline={"2022 - 2025"}
@@ -70,7 +80,9 @@ function AboutPage() {
           <div className={style.timeline_container}>
             <h1 className={style.timeline_title}>My Experience</h1>
             <div className={style.timeline_box}>
-              <div className={`${style.action_container} ${style.left_container}`}>
+              <div
+                className={`${style.action_container} ${style.left_container}`}
+              >
                 <ActionBox
                   isleft={true}
                   timeline={"2022 - 2023"}
@@ -81,7 +93,9 @@ function AboutPage() {
                   }
                 />
               </div>
-              <div className={`${style.action_container} ${style.right_container}`}>
+              <div
+                className={`${style.action_container} ${style.right_container}`}
+              >
                 <ActionBox
                   isleft={false}
                   timeline={"2023 - 2024"}
@@ -92,18 +106,32 @@ function AboutPage() {
                   }
                 />
               </div>
-              <div className={`${style.action_container} ${style.left_container}`}>
+              <div
+                className={`${style.action_container} ${style.left_container}`}
+              >
                 <ActionBox
                   isleft={false}
                   timeline={"2024"}
                   timeline_title={"PGT Teacher"}
                   location={"Navyug Public School, Kotdwara"}
                   details={
-                    "I am working as an IT Teacher at senior secondary level."
+                    "Worked as an PGT Teacher at senior secondary level."
                   }
                 />
               </div>
-             
+              <div
+                className={`${style.action_container} ${style.right_container}`}
+              >
+                <ActionBox
+                  isleft={false}
+                  timeline={"Nov 2024"}
+                  timeline_title={"PGT Computer Science"}
+                  location={"AVN Public School, Kotdwara"}
+                  details={
+                    "Working as an PGT Teacher at  AVN Public School, Kotdwara."
+                  }
+                />
+              </div>
             </div>
           </div>
         </div>

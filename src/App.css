@@ -1,27 +1,25 @@
-
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Inter:wght@100..900&family=Open+Sans&family=Outfit&family=Roboto:wght@500&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap");
 
+
 :root {
-  --dark-blue: #03061c;
+  --dark-blue: #010914;
   --light: #0dedcb;
   --slow: #0fbbc4;
   --fade: #3f9cff;
   --white: white;
   --accent: #f1f1e6;
   --gray: rgb(194, 194, 194);
-  --whatsapp-green:#4dc95d;
-  --mail-red:tomato;
-}
+  --whatsapp-green: #4dc95d;
+  --mail-red: rgb(255, 118, 94);
+} 
 
-.active{
+.active {
   color: var(--light);
   text-shadow: 0px 0px 3px rgb(16, 243, 209);
   transform: scale(1.4);
 }
 
-
-
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -37,33 +35,28 @@ html{
 
 /* SCROLL BAR CSS  */
 
-
 /* width */
 ::-webkit-scrollbar {
-    width: 5px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: var(--primary);
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: var(--accent);
-    border-radius: 2rem;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555;
-  }
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--primary);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: 2rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 
 body {
   background-color: var(--dark-blue);
   color: white;
-  
 }
-
-
-

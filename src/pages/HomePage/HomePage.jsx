@@ -65,9 +65,8 @@ function HomePage() {
             <a
               className="link_under_button"
               target="_blank"
-              href="https://drive.google.com/file/d/18y01p_mXVG9DZRLAER0cWNJKzUJ7nAeC/view?usp=sharing"
+              href="https://drive.google.com/file/d/1chxfIEABMHSjxk8pVn6Lu7RlWtRRgInj/view?usp=drive_link"
             >
-            
               Download CV
             </a>
           </motion.button>
